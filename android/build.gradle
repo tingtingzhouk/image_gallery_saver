@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    'io.flutter.plugins.imagegallerysaver'
+    namespace 'com.example.imagegallerysaver'
     compileSdkVersion 30
 
     sourceSets {
